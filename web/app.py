@@ -1,7 +1,7 @@
 from flask import Flask,jsonify,request
 from flask_restful import Api,Resource
 
-
+# adhoc change to git master
 
 app = Flask(__name__)
 api = Api(app)
