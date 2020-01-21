@@ -2,8 +2,14 @@ from flask import Flask,jsonify,request
 from flask_restful import Api,Resource
 
 # adhoc change to git master
+<<<<<<< HEAD
 # this is a new branch hotfix
 
+=======
+# testing git
+# testing git
+# testing gittttttttttttttttttttttttt
+>>>>>>> b5477af683f11ed1cafb0841fcab1a118ee43a80
 
 app = Flask(__name__)
 api = Api(app)
@@ -43,6 +49,7 @@ class Add(Resource):
             retjson = {
             
             "result": z
+            "comment" : "this was added in git test"
         }
 
         return jsonify(retjson)
